@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C51EFD5B1AD00A5C0056BE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51EFD5A1AD00A5C0056BE9C /* AppDelegate.swift */; };
+		C51EFD5D1AD00A5C0056BE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51EFD5C1AD00A5C0056BE9C /* ViewController.swift */; };
+		C51EFD601AD00A5C0056BE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51EFD5E1AD00A5C0056BE9C /* Main.storyboard */; };
+		C51EFD621AD00A5C0056BE9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51EFD611AD00A5C0056BE9C /* Images.xcassets */; };
+		C51EFD651AD00A5C0056BE9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51EFD631AD00A5C0056BE9C /* LaunchScreen.xib */; };
+		C51EFD711AD00A5C0056BE9C /* projetoTelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51EFD701AD00A5C0056BE9C /* projetoTelasTests.swift */; };
+		C51EFD7B1AD00B640056BE9C /* 2856japao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51EFD7A1AD00B640056BE9C /* 2856japao.jpg */; };
+		C51EFD7D1AD00B700056BE9C /* 0622.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C51EFD7C1AD00B700056BE9C /* 0622.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C51EFD6B1AD00A5C0056BE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C51EFD4D1AD00A5C0056BE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C51EFD541AD00A5C0056BE9C;
+			remoteInfo = projetoTelas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C51EFD551AD00A5C0056BE9C /* projetoTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetoTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51EFD591AD00A5C0056BE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51EFD5A1AD00A5C0056BE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C51EFD5C1AD00A5C0056BE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51EFD5F1AD00A5C0056BE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C51EFD611AD00A5C0056BE9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C51EFD641AD00A5C0056BE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C51EFD6A1AD00A5C0056BE9C /* projetoTelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projetoTelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51EFD6F1AD00A5C0056BE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51EFD701AD00A5C0056BE9C /* projetoTelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projetoTelasTests.swift; sourceTree = "<group>"; };
+		C51EFD7A1AD00B640056BE9C /* 2856japao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2856japao.jpg; path = "../../../Site Sushi/2856japao.jpg"; sourceTree = "<group>"; };
+		C51EFD7C1AD00B700056BE9C /* 0622.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0622.jpg; path = "../../../Site Sushi/0622.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51EFD521AD00A5C0056BE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51EFD671AD00A5C0056BE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C51EFD4C1AD00A5C0056BE9C = {
+			isa = PBXGroup;
+			children = (
+				C51EFD571AD00A5C0056BE9C /* projetoTelas */,
+				C51EFD6D1AD00A5C0056BE9C /* projetoTelasTests */,
+				C51EFD561AD00A5C0056BE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C51EFD561AD00A5C0056BE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51EFD551AD00A5C0056BE9C /* projetoTelas.app */,
+				C51EFD6A1AD00A5C0056BE9C /* projetoTelasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51EFD571AD00A5C0056BE9C /* projetoTelas */ = {
+			isa = PBXGroup;
+			children = (
+				C51EFD5A1AD00A5C0056BE9C /* AppDelegate.swift */,
+				C51EFD5C1AD00A5C0056BE9C /* ViewController.swift */,
+				C51EFD5E1AD00A5C0056BE9C /* Main.storyboard */,
+				C51EFD611AD00A5C0056BE9C /* Images.xcassets */,
+				C51EFD631AD00A5C0056BE9C /* LaunchScreen.xib */,
+				C51EFD581AD00A5C0056BE9C /* Supporting Files */,
+			);
+			path = projetoTelas;
+			sourceTree = "<group>";
+		};
+		C51EFD581AD00A5C0056BE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51EFD7C1AD00B700056BE9C /* 0622.jpg */,
+				C51EFD7A1AD00B640056BE9C /* 2856japao.jpg */,
+				C51EFD591AD00A5C0056BE9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C51EFD6D1AD00A5C0056BE9C /* projetoTelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				C51EFD701AD00A5C0056BE9C /* projetoTelasTests.swift */,
+				C51EFD6E1AD00A5C0056BE9C /* Supporting Files */,
+			);
+			path = projetoTelasTests;
+			sourceTree = "<group>";
+		};
+		C51EFD6E1AD00A5C0056BE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51EFD6F1AD00A5C0056BE9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51EFD541AD00A5C0056BE9C /* projetoTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51EFD741AD00A5C0056BE9C /* Build configuration list for PBXNativeTarget "projetoTelas" */;
+			buildPhases = (
+				C51EFD511AD00A5C0056BE9C /* Sources */,
+				C51EFD521AD00A5C0056BE9C /* Frameworks */,
+				C51EFD531AD00A5C0056BE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projetoTelas;
+			productName = projetoTelas;
+			productReference = C51EFD551AD00A5C0056BE9C /* projetoTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C51EFD691AD00A5C0056BE9C /* projetoTelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51EFD771AD00A5C0056BE9C /* Build configuration list for PBXNativeTarget "projetoTelasTests" */;
+			buildPhases = (
+				C51EFD661AD00A5C0056BE9C /* Sources */,
+				C51EFD671AD00A5C0056BE9C /* Frameworks */,
+				C51EFD681AD00A5C0056BE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C51EFD6C1AD00A5C0056BE9C /* PBXTargetDependency */,
+			);
+			name = projetoTelasTests;
+			productName = projetoTelasTests;
+			productReference = C51EFD6A1AD00A5C0056BE9C /* projetoTelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51EFD4D1AD00A5C0056BE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Felipe Ken Ikawa";
+				TargetAttributes = {
+					C51EFD541AD00A5C0056BE9C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C51EFD691AD00A5C0056BE9C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C51EFD541AD00A5C0056BE9C;
+					};
+				};
+			};
+			buildConfigurationList = C51EFD501AD00A5C0056BE9C /* Build configuration list for PBXProject "projetoTelas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51EFD4C1AD00A5C0056BE9C;
+			productRefGroup = C51EFD561AD00A5C0056BE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51EFD541AD00A5C0056BE9C /* projetoTelas */,
+				C51EFD691AD00A5C0056BE9C /* projetoTelasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51EFD531AD00A5C0056BE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51EFD7B1AD00B640056BE9C /* 2856japao.jpg in Resources */,
+				C51EFD601AD00A5C0056BE9C /* Main.storyboard in Resources */,
+				C51EFD7D1AD00B700056BE9C /* 0622.jpg in Resources */,
+				C51EFD651AD00A5C0056BE9C /* LaunchScreen.xib in Resources */,
+				C51EFD621AD00A5C0056BE9C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51EFD681AD00A5C0056BE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51EFD511AD00A5C0056BE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51EFD5D1AD00A5C0056BE9C /* ViewController.swift in Sources */,
+				C51EFD5B1AD00A5C0056BE9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51EFD661AD00A5C0056BE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51EFD711AD00A5C0056BE9C /* projetoTelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C51EFD6C1AD00A5C0056BE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C51EFD541AD00A5C0056BE9C /* projetoTelas */;
+			targetProxy = C51EFD6B1AD00A5C0056BE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C51EFD5E1AD00A5C0056BE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51EFD5F1AD00A5C0056BE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51EFD631AD00A5C0056BE9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C51EFD641AD00A5C0056BE9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C51EFD721AD00A5C0056BE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51EFD731AD00A5C0056BE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51EFD751AD00A5C0056BE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = projetoTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C51EFD761AD00A5C0056BE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = projetoTelas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C51EFD781AD00A5C0056BE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = projetoTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projetoTelas.app/projetoTelas";
+			};
+			name = Debug;
+		};
+		C51EFD791AD00A5C0056BE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = projetoTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projetoTelas.app/projetoTelas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51EFD501AD00A5C0056BE9C /* Build configuration list for PBXProject "projetoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51EFD721AD00A5C0056BE9C /* Debug */,
+				C51EFD731AD00A5C0056BE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51EFD741AD00A5C0056BE9C /* Build configuration list for PBXNativeTarget "projetoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51EFD751AD00A5C0056BE9C /* Debug */,
+				C51EFD761AD00A5C0056BE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C51EFD771AD00A5C0056BE9C /* Build configuration list for PBXNativeTarget "projetoTelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51EFD781AD00A5C0056BE9C /* Debug */,
+				C51EFD791AD00A5C0056BE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51EFD4D1AD00A5C0056BE9C /* Project object */;
+}
