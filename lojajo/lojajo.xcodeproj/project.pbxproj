@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56EA24D1B17E5CF00F3E23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EA24C1B17E5CF00F3E23A /* AppDelegate.swift */; };
+		C56EA24F1B17E5CF00F3E23A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EA24E1B17E5CF00F3E23A /* ViewController.swift */; };
+		C56EA2521B17E5CF00F3E23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56EA2501B17E5CF00F3E23A /* Main.storyboard */; };
+		C56EA2541B17E5CF00F3E23A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56EA2531B17E5CF00F3E23A /* Images.xcassets */; };
+		C56EA2571B17E5CF00F3E23A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56EA2551B17E5CF00F3E23A /* LaunchScreen.xib */; };
+		C56EA2631B17E5CF00F3E23A /* lojajoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EA2621B17E5CF00F3E23A /* lojajoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56EA25D1B17E5CF00F3E23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56EA23F1B17E5CF00F3E23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56EA2461B17E5CF00F3E23A;
+			remoteInfo = lojajo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56EA2471B17E5CF00F3E23A /* lojajo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lojajo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56EA24B1B17E5CF00F3E23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56EA24C1B17E5CF00F3E23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56EA24E1B17E5CF00F3E23A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C56EA2511B17E5CF00F3E23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C56EA2531B17E5CF00F3E23A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C56EA2561B17E5CF00F3E23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C56EA25C1B17E5CF00F3E23A /* lojajoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lojajoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56EA2611B17E5CF00F3E23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56EA2621B17E5CF00F3E23A /* lojajoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lojajoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56EA2441B17E5CF00F3E23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56EA2591B17E5CF00F3E23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56EA23E1B17E5CF00F3E23A = {
+			isa = PBXGroup;
+			children = (
+				C56EA2491B17E5CF00F3E23A /* lojajo */,
+				C56EA25F1B17E5CF00F3E23A /* lojajoTests */,
+				C56EA2481B17E5CF00F3E23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56EA2481B17E5CF00F3E23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56EA2471B17E5CF00F3E23A /* lojajo.app */,
+				C56EA25C1B17E5CF00F3E23A /* lojajoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56EA2491B17E5CF00F3E23A /* lojajo */ = {
+			isa = PBXGroup;
+			children = (
+				C56EA24C1B17E5CF00F3E23A /* AppDelegate.swift */,
+				C56EA24E1B17E5CF00F3E23A /* ViewController.swift */,
+				C56EA2501B17E5CF00F3E23A /* Main.storyboard */,
+				C56EA2531B17E5CF00F3E23A /* Images.xcassets */,
+				C56EA2551B17E5CF00F3E23A /* LaunchScreen.xib */,
+				C56EA24A1B17E5CF00F3E23A /* Supporting Files */,
+			);
+			path = lojajo;
+			sourceTree = "<group>";
+		};
+		C56EA24A1B17E5CF00F3E23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56EA24B1B17E5CF00F3E23A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56EA25F1B17E5CF00F3E23A /* lojajoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56EA2621B17E5CF00F3E23A /* lojajoTests.swift */,
+				C56EA2601B17E5CF00F3E23A /* Supporting Files */,
+			);
+			path = lojajoTests;
+			sourceTree = "<group>";
+		};
+		C56EA2601B17E5CF00F3E23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56EA2611B17E5CF00F3E23A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56EA2461B17E5CF00F3E23A /* lojajo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56EA2661B17E5CF00F3E23A /* Build configuration list for PBXNativeTarget "lojajo" */;
+			buildPhases = (
+				C56EA2431B17E5CF00F3E23A /* Sources */,
+				C56EA2441B17E5CF00F3E23A /* Frameworks */,
+				C56EA2451B17E5CF00F3E23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lojajo;
+			productName = lojajo;
+			productReference = C56EA2471B17E5CF00F3E23A /* lojajo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56EA25B1B17E5CF00F3E23A /* lojajoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56EA2691B17E5CF00F3E23A /* Build configuration list for PBXNativeTarget "lojajoTests" */;
+			buildPhases = (
+				C56EA2581B17E5CF00F3E23A /* Sources */,
+				C56EA2591B17E5CF00F3E23A /* Frameworks */,
+				C56EA25A1B17E5CF00F3E23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56EA25E1B17E5CF00F3E23A /* PBXTargetDependency */,
+			);
+			name = lojajoTests;
+			productName = lojajoTests;
+			productReference = C56EA25C1B17E5CF00F3E23A /* lojajoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56EA23F1B17E5CF00F3E23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = grape;
+				TargetAttributes = {
+					C56EA2461B17E5CF00F3E23A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C56EA25B1B17E5CF00F3E23A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C56EA2461B17E5CF00F3E23A;
+					};
+				};
+			};
+			buildConfigurationList = C56EA2421B17E5CF00F3E23A /* Build configuration list for PBXProject "lojajo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C56EA23E1B17E5CF00F3E23A;
+			productRefGroup = C56EA2481B17E5CF00F3E23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56EA2461B17E5CF00F3E23A /* lojajo */,
+				C56EA25B1B17E5CF00F3E23A /* lojajoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56EA2451B17E5CF00F3E23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56EA2521B17E5CF00F3E23A /* Main.storyboard in Resources */,
+				C56EA2571B17E5CF00F3E23A /* LaunchScreen.xib in Resources */,
+				C56EA2541B17E5CF00F3E23A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56EA25A1B17E5CF00F3E23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56EA2431B17E5CF00F3E23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56EA24F1B17E5CF00F3E23A /* ViewController.swift in Sources */,
+				C56EA24D1B17E5CF00F3E23A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56EA2581B17E5CF00F3E23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56EA2631B17E5CF00F3E23A /* lojajoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56EA25E1B17E5CF00F3E23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56EA2461B17E5CF00F3E23A /* lojajo */;
+			targetProxy = C56EA25D1B17E5CF00F3E23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56EA2501B17E5CF00F3E23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56EA2511B17E5CF00F3E23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C56EA2551B17E5CF00F3E23A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56EA2561B17E5CF00F3E23A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56EA2641B17E5CF00F3E23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C56EA2651B17E5CF00F3E23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56EA2671B17E5CF00F3E23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lojajo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C56EA2681B17E5CF00F3E23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lojajo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C56EA26A1B17E5CF00F3E23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lojajoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lojajo.app/lojajo";
+			};
+			name = Debug;
+		};
+		C56EA26B1B17E5CF00F3E23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lojajoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lojajo.app/lojajo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56EA2421B17E5CF00F3E23A /* Build configuration list for PBXProject "lojajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56EA2641B17E5CF00F3E23A /* Debug */,
+				C56EA2651B17E5CF00F3E23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56EA2661B17E5CF00F3E23A /* Build configuration list for PBXNativeTarget "lojajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56EA2671B17E5CF00F3E23A /* Debug */,
+				C56EA2681B17E5CF00F3E23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56EA2691B17E5CF00F3E23A /* Build configuration list for PBXNativeTarget "lojajoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56EA26A1B17E5CF00F3E23A /* Debug */,
+				C56EA26B1B17E5CF00F3E23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56EA23F1B17E5CF00F3E23A /* Project object */;
+}

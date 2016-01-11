@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5DC3DC71AF6766B00E3629C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC3DC61AF6766B00E3629C /* AppDelegate.swift */; };
+		C5DC3DC91AF6766B00E3629C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC3DC81AF6766B00E3629C /* ViewController.swift */; };
+		C5DC3DCC1AF6766B00E3629C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DC3DCA1AF6766B00E3629C /* Main.storyboard */; };
+		C5DC3DCE1AF6766B00E3629C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DC3DCD1AF6766B00E3629C /* Images.xcassets */; };
+		C5DC3DD11AF6766B00E3629C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DC3DCF1AF6766B00E3629C /* LaunchScreen.xib */; };
+		C5DC3DDD1AF6766B00E3629C /* novaRefeicaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC3DDC1AF6766B00E3629C /* novaRefeicaoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5DC3DD71AF6766B00E3629C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5DC3DB91AF6766A00E3629C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5DC3DC01AF6766A00E3629C;
+			remoteInfo = novaRefeicao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5DC3DC11AF6766A00E3629C /* novaRefeicao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novaRefeicao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DC3DC51AF6766B00E3629C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DC3DC61AF6766B00E3629C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5DC3DC81AF6766B00E3629C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5DC3DCB1AF6766B00E3629C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5DC3DCD1AF6766B00E3629C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5DC3DD01AF6766B00E3629C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5DC3DD61AF6766B00E3629C /* novaRefeicaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = novaRefeicaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DC3DDB1AF6766B00E3629C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DC3DDC1AF6766B00E3629C /* novaRefeicaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novaRefeicaoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5DC3DBE1AF6766A00E3629C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DC3DD31AF6766B00E3629C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5DC3DB81AF6766A00E3629C = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DC31AF6766A00E3629C /* novaRefeicao */,
+				C5DC3DD91AF6766B00E3629C /* novaRefeicaoTests */,
+				C5DC3DC21AF6766A00E3629C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5DC3DC21AF6766A00E3629C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DC11AF6766A00E3629C /* novaRefeicao.app */,
+				C5DC3DD61AF6766B00E3629C /* novaRefeicaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5DC3DC31AF6766A00E3629C /* novaRefeicao */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DC61AF6766B00E3629C /* AppDelegate.swift */,
+				C5DC3DC81AF6766B00E3629C /* ViewController.swift */,
+				C5DC3DCA1AF6766B00E3629C /* Main.storyboard */,
+				C5DC3DCD1AF6766B00E3629C /* Images.xcassets */,
+				C5DC3DCF1AF6766B00E3629C /* LaunchScreen.xib */,
+				C5DC3DC41AF6766A00E3629C /* Supporting Files */,
+			);
+			path = novaRefeicao;
+			sourceTree = "<group>";
+		};
+		C5DC3DC41AF6766A00E3629C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DC51AF6766B00E3629C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5DC3DD91AF6766B00E3629C /* novaRefeicaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DDC1AF6766B00E3629C /* novaRefeicaoTests.swift */,
+				C5DC3DDA1AF6766B00E3629C /* Supporting Files */,
+			);
+			path = novaRefeicaoTests;
+			sourceTree = "<group>";
+		};
+		C5DC3DDA1AF6766B00E3629C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC3DDB1AF6766B00E3629C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5DC3DC01AF6766A00E3629C /* novaRefeicao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DC3DE01AF6766B00E3629C /* Build configuration list for PBXNativeTarget "novaRefeicao" */;
+			buildPhases = (
+				C5DC3DBD1AF6766A00E3629C /* Sources */,
+				C5DC3DBE1AF6766A00E3629C /* Frameworks */,
+				C5DC3DBF1AF6766A00E3629C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = novaRefeicao;
+			productName = novaRefeicao;
+			productReference = C5DC3DC11AF6766A00E3629C /* novaRefeicao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5DC3DD51AF6766B00E3629C /* novaRefeicaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DC3DE31AF6766B00E3629C /* Build configuration list for PBXNativeTarget "novaRefeicaoTests" */;
+			buildPhases = (
+				C5DC3DD21AF6766B00E3629C /* Sources */,
+				C5DC3DD31AF6766B00E3629C /* Frameworks */,
+				C5DC3DD41AF6766B00E3629C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DC3DD81AF6766B00E3629C /* PBXTargetDependency */,
+			);
+			name = novaRefeicaoTests;
+			productName = novaRefeicaoTests;
+			productReference = C5DC3DD61AF6766B00E3629C /* novaRefeicaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5DC3DB91AF6766A00E3629C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = grape;
+				TargetAttributes = {
+					C5DC3DC01AF6766A00E3629C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C5DC3DD51AF6766B00E3629C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C5DC3DC01AF6766A00E3629C;
+					};
+				};
+			};
+			buildConfigurationList = C5DC3DBC1AF6766A00E3629C /* Build configuration list for PBXProject "novaRefeicao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5DC3DB81AF6766A00E3629C;
+			productRefGroup = C5DC3DC21AF6766A00E3629C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5DC3DC01AF6766A00E3629C /* novaRefeicao */,
+				C5DC3DD51AF6766B00E3629C /* novaRefeicaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5DC3DBF1AF6766A00E3629C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DC3DCC1AF6766B00E3629C /* Main.storyboard in Resources */,
+				C5DC3DD11AF6766B00E3629C /* LaunchScreen.xib in Resources */,
+				C5DC3DCE1AF6766B00E3629C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DC3DD41AF6766B00E3629C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5DC3DBD1AF6766A00E3629C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DC3DC91AF6766B00E3629C /* ViewController.swift in Sources */,
+				C5DC3DC71AF6766B00E3629C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DC3DD21AF6766B00E3629C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DC3DDD1AF6766B00E3629C /* novaRefeicaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5DC3DD81AF6766B00E3629C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5DC3DC01AF6766A00E3629C /* novaRefeicao */;
+			targetProxy = C5DC3DD71AF6766B00E3629C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5DC3DCA1AF6766B00E3629C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DC3DCB1AF6766B00E3629C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5DC3DCF1AF6766B00E3629C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DC3DD01AF6766B00E3629C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5DC3DDE1AF6766B00E3629C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5DC3DDF1AF6766B00E3629C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5DC3DE11AF6766B00E3629C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = novaRefeicao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5DC3DE21AF6766B00E3629C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = novaRefeicao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5DC3DE41AF6766B00E3629C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = novaRefeicaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/novaRefeicao.app/novaRefeicao";
+			};
+			name = Debug;
+		};
+		C5DC3DE51AF6766B00E3629C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = novaRefeicaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/novaRefeicao.app/novaRefeicao";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5DC3DBC1AF6766A00E3629C /* Build configuration list for PBXProject "novaRefeicao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DC3DDE1AF6766B00E3629C /* Debug */,
+				C5DC3DDF1AF6766B00E3629C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DC3DE01AF6766B00E3629C /* Build configuration list for PBXNativeTarget "novaRefeicao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DC3DE11AF6766B00E3629C /* Debug */,
+				C5DC3DE21AF6766B00E3629C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5DC3DE31AF6766B00E3629C /* Build configuration list for PBXNativeTarget "novaRefeicaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DC3DE41AF6766B00E3629C /* Debug */,
+				C5DC3DE51AF6766B00E3629C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5DC3DB91AF6766A00E3629C /* Project object */;
+}
